@@ -1,0 +1,13 @@
+{
+    "prompt": "playing soccer",
+    "style_name": "emoji",
+    "use_text_inversion": false,
+    "num_samples": 10,
+    "num_rows": 1,
+    "num_inference_steps": 100,
+    "checkpoints": [200, 400],
+    "output_dir": "output/emoji-no-aug",
+    "model_dir": "models/emoji-no-aug",
+    "output_size": 256,
+    "seed": 9999997
+}
