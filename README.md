@@ -26,5 +26,5 @@ To Evalute/Obtain outputs: Use CPU here and make sure to recall `accelerate conf
 To change the prompt go to `configs/eval_emoji.json` and update the `prompt`. 
 
 ## Example Output
-![example output](/Specialist-Diffusion-main/output/emoji2/1/200/image_2.png)
+![example output](/output/emoji2/1/200/image_2.png)
 
