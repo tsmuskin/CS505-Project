@@ -24,6 +24,7 @@ To Evalute/Obtain outputs: Use CPU here and make sure to recall `accelerate conf
     accelerate launch eval.py --config='configs/eval_emoji.json'
 
 To change the prompt go to `configs/eval_emoji.json` and update the `prompt`. 
+
 ## Example Output
-<img alt="example output" src="/Specialist-Diffusion-main/output/emoji2/1/200/image_2.png"/>
+![example output](/Specialist-Diffusion-main/output/emoji2/1/200/image_2.png)
 
