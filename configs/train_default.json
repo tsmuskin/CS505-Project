@@ -1,7 +1,7 @@
 {
     "data_root": "data/emoji",
     "source_list": "data/emoji/source_list.json",
-    "style_name": "flat",
+    "style_name": "emoji",
     "learning_rate": 1e-5,
     "step_milestones": [20, 100],
     "train_epochs": 500,  
@@ -20,6 +20,6 @@
     "pretrained_name": "CompVis/stable-diffusion-v1-4",    
     "image_size": 512,
     "checkpoints": [50, 100, 150, 200, 250, 300, 350, 400, 450, 500],
-    "clip_similars": "similars/flat-similars.pt",
+    "clip_similars": "similars/emoji-similars.pt",
     "gradient_accumulation_steps": 8
 }
