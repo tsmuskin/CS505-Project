@@ -5,7 +5,7 @@
     "num_samples": 10,
     "num_rows": 1,
     "num_inference_steps": 100,
-    "checkpoints": [100],
+    "checkpoints": [200],
     "output_dir": "output/emoji",
     "model_dir": "models/emoji",
     "output_size": 256,
