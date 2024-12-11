@@ -19,7 +19,7 @@ To train the model: We recommend using 2 GPU 8.9's to train the model and ensure
 
 
 ## Evaluate a model
-To Evalute/Obtain outputs: Use CPU here and make sure to recall `accelerate config` to use multi-CPU. 
+To Evalute/Obtain outputs: Make sure to recall `accelerate config` to use multi-CPU, but still use the GPU's from the SCC. 
 
     accelerate launch eval.py --config='configs/eval_emoji.json'
 
