@@ -17,7 +17,7 @@ To train the model: We recommend using 2 GPU 8.9's to train the model and ensure
 
     accelerate launch train.py --config='configs/train_emoji.json'
 
-
+Instead of training the model you can download [this saved model](https://drive.google.com/file/d/1i1C_XDuIPZy_uVCn4DKGtPhu3elucWpu/view?usp=drive_link) and put it under models/emoji
 ## Evaluate a model
 To Evalute/Obtain outputs: Make sure to recall `accelerate config` to use multi-CPU, but still use the GPU's from the SCC. 
 
